@@ -1,0 +1,58 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#selektor_id {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(122, 111, 111);
+}
+
+.Card {
+    background-color: white;  
+    width: 256px; 
+    height: 340px;
+    display: inline-block;
+    margin: 16px;
+    border: 5px solid rgb(40, 168, 207);
+    border-radius: 16px;
+    transition: box-shadow 0.25s;
+    padding: 16px;
+}
+
+.Card:hover {
+    box-shadow: 11px 16px 18px #a6acf5;  
+}
+
+.Card_dashed {
+    border: 5px dashed rgb(40, 168, 207);
+}
+
+.Card_border-0 {
+    border-radius: 0;
+}
+
+.Card_border-7 {
+    border-radius: 7px;
+}
+
+.Card__image {
+    height: 120px;
+    width: 120px;
+    box-shadow: 12px 11px 13px #000;
+}
+
+.Card__title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Card__info {
+    font-size: 16px;
+    font-weight: bold;
+    opacity: .5;
+    
+}
